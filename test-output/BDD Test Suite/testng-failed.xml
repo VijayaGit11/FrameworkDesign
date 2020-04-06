@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite guice-stage="DEVELOPMENT" name="Failed suite [BDD Test Suite]" parallel="tests">
+  <test name="Default test(failed)" parallel="tests">
+    <classes>
+      <class name="MyRunner.MyRunner">
+        <methods>
+          <include name="feature"/>
+          <include name="setUpClass"/>
+          <include name="tearDownClass"/>
+        </methods>
+      </class> <!-- MyRunner.MyRunner -->
+    </classes>
+  </test> <!-- Default test(failed) -->
+</suite> <!-- Failed suite [BDD Test Suite] -->

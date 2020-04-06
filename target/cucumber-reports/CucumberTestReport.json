@@ -1,0 +1,92 @@
+[
+  {
+    "line": 1,
+    "elements": [
+      {
+        "comments": [
+          {
+            "line": 5,
+            "value": "#  Scenario Outline: Login Page validation"
+          }
+        ],
+        "line": 6,
+        "name": ":Login page validation",
+        "description": "",
+        "id": "login-page-feature;:login-page-validation",
+        "type": "scenario",
+        "keyword": "Scenario",
+        "steps": [
+          {
+            "result": {
+              "duration": 26717257100,
+              "status": "passed"
+            },
+            "line": 8,
+            "name": "User is already on Login screen",
+            "match": {
+              "location": "LoginPageTest.user_is_already_on_Login_page()"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 1902858600,
+              "status": "passed"
+            },
+            "line": 9,
+            "name": "User enters username and password",
+            "match": {
+              "location": "LoginPageTest.User_Enters_Username_Password()"
+            },
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "duration": 265415400,
+              "status": "passed"
+            },
+            "comments": [
+              {
+                "line": 10,
+                "value": "#    Then User enters \"\u003cusername\u003e\" and \"\u003cpassword\u003e\""
+              }
+            ],
+            "line": 11,
+            "name": "User clicks on submit button",
+            "match": {
+              "location": "LoginPageTest.user_clicks_on_submit_button()"
+            },
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "duration": 2913358200,
+              "status": "passed"
+            },
+            "comments": [
+              {
+                "line": 12,
+                "value": "#    Then user is on home page"
+              },
+              {
+                "line": 13,
+                "value": "#    And User navigates to deals page"
+              }
+            ],
+            "line": 14,
+            "name": "User closes the browser",
+            "match": {
+              "location": "LoginPageTest.User_closest_the_browser()"
+            },
+            "keyword": "Then "
+          }
+        ]
+      }
+    ],
+    "name": "Login page feature",
+    "description": "\r\nDescription: This feature is for Login Page validation",
+    "id": "login-page-feature",
+    "keyword": "Feature",
+    "uri": "C:/Users/HP/Documents/Framework/Framework/src/test/java/features/CRMLoginPage.feature"
+  }
+]
